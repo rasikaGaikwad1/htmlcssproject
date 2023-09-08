@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(235, 235, 72);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.list_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item a{
+    font-size: 30px;
+    color: maroon;
+    text-decoration: none;
+}
+.list_item ul li{
+    list-style: none;
+}
